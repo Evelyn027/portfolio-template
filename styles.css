@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 :root {
-  --primary-color: #3282B8;
-  --primary-color-dark: #0F4C75;
-  --accent-color: #FFF8F0;
+  --primary-color: #000000;
+  --primary-color-dark: #2600ff;
+  --accent-color: #ffffff;
 }
 
 html {
@@ -64,6 +64,7 @@ body {
 
 .introduction {
   padding-left: 50px;
+  text-align: center;
 }
 
 .content {
@@ -101,11 +102,12 @@ h1 {
   font-weight: 800;
   color: var(--accent-color);
   text-transform: uppercase;
+  text-align: center;
 }
 
 .socials {
   list-style: none;
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   padding: 0;
 }
@@ -113,8 +115,9 @@ h1 {
 .socials-icon {
   font-size: 30px;
   text-decoration: none;
-  margin-right: 15px;
-  color: var(--accent-color);
+  margin-right: 25px;
+  margin-left: 25px;
+  color: var(--accent-color);  
 }
 
 .text-section {
